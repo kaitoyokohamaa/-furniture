@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/responsive.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="CSS/slick.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/slick-theme.css" />
+    <title>markup</title>
+</head>
+
+<body>
+    <!-- 見出しのメニュー -->
+        <header>
+            <div class="flx">
+                <div class="logo">
+                    <p>HTML<br>CSS</p>
+                    <!-- ハンバーガーメニュー -->
+                    <a class="menubotn" id="menubotn">
+                        <div class=""></div>
+                        <div class=""></div>
+                        <div class=""></div>
+                    </a>
+                    <!-- ハンバーガーメニュー -->
+                </div>
+                <nav id="nav">
+                    <ul class="menue">
+                        <li class="list1"><a href="index.html">About</a></li>
+                        <li class="list2"><a href="news.html">News</a></li>
+                        <li class="list3"><a href="q&a.html">Q&A</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- We propose a life.のところ -->
+        <div class="mnzi">
+            <div class="life">
+                <p>We propose a life.</p>
+            </div>
+            <!-- レスポンシブ用 -->
+            <div class="life_res">
+                <p class="lifespan">We</p>
+                <p class="propose">propose</p>
+                <p class="alife">a life.</p>
+            </div>
+        </div>
+        <!-- 暮らしの提案 -->
+        <div class="hospitality">
+            <div class="imgwrap">
+                <img src="img/AdobeStock_189860956.png" alt="">
+            </div>
+            <div class="proposal">
+                <h2>
+                    暮らしを提案する。
+                </h2>
+                <p>私たちは、家具を売るのではなく、お客様の理想とする </p>
+                <p>「暮らし」を提案します。</p>
+                <p>仕事で疲れた後に帰りたくなる、</p>
+                <p>今日も１日頑張ろうと思える、</p>
+                <p>そんな空間をお客様と一緒に作り上げていくのが私たちの仕事です。</p>
+            </div>
+        </div>
+        <!-- 暮らしの提案レスポンシブ用（上下反転） -->
+        <div class="hospitality_res">
+            <div class="proposal_res">
+                <h2>
+                    暮らしを提案する。
+                </h2>
+                <p>私たちは、家具を売るのではなく、</p>
+                <p> お客様の理想とする </p>
+                <p>「暮らし」を提案します。</p>
+                <p>仕事で疲れた後に帰りたくなる、</p>
+                <p>今日も１日頑張ろうと思える、</p>
+                <p>そんな空間をお客様と一緒に作り上げていくのが</p>
+                <p>私たちの仕事です。</p>
+            </div>
+            <div class="imgwrap_res">
+                <img src="img/AdobeStock_189860956.png" alt="">
+            </div>
+        </div>
+        <!-- 豊富なスタイル -->
+        <div class="style">
+            <section class="many">
+                <h2>
+                    豊富なスタイル
+                </h2>
+            </section>
+            <section class="slide" id="slide">
+                <div class="slider">
+                    <img src="img/AdobeStock_279823582.png" alt="">
+                    <img src="img/AdobeStock_279823582.png" alt="">
+                    <img src="img/AdobeStock_279823582.png" alt="">
+                </div>
+            </section>
+        </div>
+        <!-- ニュース -->
+        <div class="news">
+            <section class="heading">
+                <h2>news</h2>
+            </section>
+            <section class="flxi">
+                <figure class="cp_caption">
+                    <div class="figure-inner">
+                        <img src="img/AdobeStock_59829158_Preview.png" alt="">
+                        <figcaption>
+                            <div class="capt">
+                                <p>アームストロングのカウチ入荷</p>
+                            </div>
+                        </figcaption>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="figure-inner">
+                        <img src="img/AdobeStock_74141361.png" alt="">
+                        <figcaption class="mask">
+                            <div class="capt">
+                                <p>アームストロングのカウチ入荷</p>
+                            </div>
+                        </figcaption>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="figure-inner">
+                        <img src="img/AdobeStock_221963447.png" alt="">
+                        <figcaption class="mask">
+                            <div class="capt">
+                                <p>アームストロングのカウチ入荷</p>
+                            </div>
+                        </figcaption>
+                    </div>
+                </figure>
+            </section>
+            <section class="more">
+                <a href="news.html">view more</a>
+            </section>
+        </div>
+        <!-- コンタクトページ -->
+        <div class="contact">
+            <section class="caption">
+                <h2 class="communication">
+                    contact
+                </h2>
+            </section>
+            <section class="form">
+                <form action="/my-handling-form-page" method="post">
+                    <div>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                    <div>
+                        <input type="email" id="mail" name="user_mail">
+                    </div>
+                    <div>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </div>
+                    <div class="sub">
+                        <input type="submit" value="SEND">
+                    </div>
+                </form>
+            </section>
+        </div>
+        <!-- フッター -->
+        <footer>
+            <div class="wrap">
+                <section class="logo2">
+                    <p>
+                        HTML<br>CSS
+                    </p>
+                </section>
+                <section class="fotmenue">
+                    <nav>
+                        <ul class="menue2">
+                            <li class="list"><a href="index.html">About</a></li>
+                            <li class="list"><a href="news.html">News</a></li>
+                            <li class="list"><a href="q&a.html">Q&A</a></li>
+                        </ul>
+                    </nav>
+                    <p>
+                        @HTMLCSS.code
+                    </p>
+                </section>
+            </div>
+        </footer>
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="JS/slick.min.js"></script>
+        <script type="text/javascript">
+            $('.slider').slick({
+                dots: true,
+            });
+
+            // ハンバーガーメニューの作成
+            document.addEventListener('DOMContentLoaded', function () {
+                document.getElementById("menubotn").addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    document.getElementById("nav").classList.toggle("active");
+                })
+            });
+        </script>
+</body>
+
+</html>

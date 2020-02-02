@@ -1,0 +1,194 @@
+//リンク
+.flx {
+    display: flex;
+
+    .menue {
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        right: 145px;
+
+        .list1,
+        .list2 {
+            a {
+                border-bottom: none;
+                text-align: left;
+                font: Regular 16px/22px Noto Sans;
+                letter-spacing: 0;
+                color: #272727;
+                opacity: 0.5;
+                text-decoration: none;
+            }
+        }
+
+        .list3 {
+            a {
+                text-decoration: none;
+                padding-bottom: 5px;
+                border-bottom: 2px solid #272727;
+                opacity: 1;
+                visibility: visible;
+                color: #272727;
+            }
+        }
+
+        li {
+            padding-left: 64px;
+            padding-top: 23px;
+        }
+    }
+
+    .logo {
+        text-align: center;
+        font: SemiBold 16px/16px Gill Sans;
+        letter-spacing: 0;
+        color: #918F89;
+        opacity: 1;
+        padding-left: 54px;
+        padding-top: 14px;
+    }
+}
+
+// バックに画像があるやつ
+.bgmnzi {
+    background-image: url("../img/AdobeStock_255730246.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: right 10% bottom 10%;
+    height: 415px;
+
+    p {
+        text-align: left;
+        font: Thin 60px/82px Noto Sans;
+        letter-spacing: 3px;
+        color: #918F89;
+        opacity: 0.8;
+        vertical-align: middle;
+        font-size: 30px;
+        padding-top: 170px;
+        padding-left: 300px;
+    }
+}
+
+// アコーディオン関係
+.news {
+    margin-bottom: 200px;
+
+    .info {
+        margin-bottom: 50px;
+    }
+
+    .qa {
+        text-align: left;
+        font: Regular 16px/53px Noto Sans;
+        letter-spacing: 1.6px;
+        color: #3B3B3B;
+        opacity: 1;
+        font-size: 16px;
+    }
+
+    .answer {
+        display: none;
+        text-align: left;
+        font: SemiBold 12px/20px Noto Sans;
+        letter-spacing: 0.36px;
+        color: #3B3B3B;
+        opacity: 1;
+        font-size: 13px;
+        padding-top: 25px;
+    }
+}
+
+/*下矢印↓*/
+
+
+
+// text-shadow
+.nwlife {
+
+    p {
+        color: #ffffff;
+        text-shadow: 13px 7px 0px #5d5858;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    // バックに画像があるやつ
+    .bgmnzi {
+        background-image: url("../img/AdobeStock_255730246.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: right 10% bottom 10%;
+        height: 415px;
+
+        p {
+            text-align: left;
+            font: Thin 60px/82px Noto Sans;
+            letter-spacing: 3px;
+            color: #ffffff;
+            opacity: 0.8;
+            vertical-align: middle;
+            font-size: 30px;
+            padding-top: 103px;
+            padding-left: 154px;
+        }
+    }
+
+    // アコーディオン関係
+    .news_res {
+        margin-bottom: 200px;
+
+        h2 {
+            text-align: center;
+            font: Regular 21px/53px Noto Sans;
+            letter-spacing: 2.1px;
+            color: #3B3B3B;
+            opacity: 1;
+            font-size: 21px;
+            padding-top: 50px;
+        }
+
+        .info_res {
+            margin-bottom: 50px;
+        }
+
+        .qa_res {
+            text-align: center;
+            font: Regular 16px/53px Noto Sans;
+            letter-spacing: 1.6px;
+            color: #3B3B3B;
+            opacity: 1;
+            font-size: 13px;
+            margin-top: 53px;
+        }
+
+        .answer_res {
+            display: none;
+            text-align: left;
+            font: SemiBold 12px/20px Noto Sans;
+            letter-spacing: 0.36px;
+            color: #3B3B3B;
+            opacity: 1;
+            font-size: 13px;
+            padding-top: 25px;
+            padding-left: 45px;
+        }
+    }
+
+.more{
+    display: block;
+    a{
+            margin-bottom: 10px;
+    }
+}
+    //display:none;
+    .news {
+        display: none;
+    }
+}
+@media screen and (min-width:1024px) {
+    .news_res{
+        display: none;
+    }
+ }
