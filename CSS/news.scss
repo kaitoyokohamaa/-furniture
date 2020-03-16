@@ -1,0 +1,105 @@
+//リンク
+.flx {
+    display: flex;
+
+    .menue {
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        right: 145px;
+
+        .list1,
+        .list3 {
+            a {
+                border-bottom: none;
+                text-align: left;
+                font: Regular 16px/22px Noto Sans;
+                letter-spacing: 0;
+                color: #272727;
+                opacity: 0.5;
+                text-decoration: none;
+            }
+        }
+
+        .list2 {
+            a {
+                text-decoration: none;
+                padding-bottom: 5px;
+                border-bottom: 2px solid #272727;
+                opacity: 1;
+                visibility: visible;
+                color: #272727;
+            }
+        }
+
+        li {
+            padding-left: 64px;
+            padding-top: 23px;
+        }
+    }
+
+    .logo {
+        text-align: center;
+        font: SemiBold 16px/16px Gill Sans;
+        letter-spacing: 0;
+        color: #918F89;
+        opacity: 1;
+        padding-left: 54px;
+        padding-top: 14px;
+    }
+}
+
+
+// バックに画像があるやつ
+.bgmnzi {
+    background-image: url("../img/AdobeStock_295587079.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: right 10% bottom 10%;
+    height: 415px;
+
+    p {
+        text-align: left;
+        font: Thin 60px/82px Noto Sans;
+        letter-spacing: 3px;
+        color: #918F89;
+        opacity: 0.8;
+        vertical-align: middle;
+        font-size: 30px;
+        padding-top: 170px;
+        padding-left: 300px;
+    }
+}
+
+// フレックスの画像のところ
+
+.wrap {
+    margin-top: 200px;
+}
+@media screen and (max-width:480px) {
+    // バックに画像があるやつ
+.bgmnzi {
+    background-image: url("../img/AdobeStock_295587079のコピー.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: right 10% bottom 10%;
+    height: 415px;
+
+    p {
+        text-align: left;
+        font: Thin 60px/82px Noto Sans;
+        letter-spacing: 3px;
+        color: #918F89;
+        opacity: 0.8;
+        vertical-align: middle;
+        font-size: 30px;
+        padding-top: 127px;
+        padding-left: 141px;
+    }
+}
+}
+@media screen and (min-width:1024px) {
+   .more{
+       display: none;
+   }
+}
