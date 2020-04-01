@@ -19,7 +19,7 @@
     visibility: visible;
     position: absolute;
     z-index: 1000;
-    top: 51px;
+    top: -16px;
     left: 0;
     background: #918F89;
     color: #FFF;
@@ -27,7 +27,7 @@
     transition: all 0.1s;
     width: 100%;
     background-size: cover;
-    height: 22vh;
+    height: 100vh;
     opacity: 0.9;
   }
   header .menubotn {
@@ -36,8 +36,8 @@
     width: 80px;
     background: #918F89;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 5px;
+    right: 10px;
     z-index: 2;
     color: #FFF;
   }
@@ -57,18 +57,30 @@
     opacity: 0;
   }
   header .menubotn.active div:nth-of-type(1) {
-    transform: rotate(45deg) translate(-50%, 0px);
-    transform-origin: 0% 50%;
+    -webkit-transform: translateY(20px) rotate(-315deg);
+    transform: translateY(-7px) rotate(-360deg);
+    background: #9d3bb0;
+    font-size: 27px;
+    font-size: small;
+    /* width: 46px; */
+    height: 7px;
   }
   header .menubotn.active div:nth-of-type(3) {
-    transform: rotate(-45deg) translate(-50%, 0px);
-    transform-origin: 0% 50%;
+    background: #a707c1;
+    -webkit-transform: translateY(-20px) rotate(315deg);
+    transform: translateY(-8px) rotate(269deg);
+    height: 7px;
   }
   header .menubotn div:nth-of-type(1) {
     transform: translate(-50%, -15px);
+    height: 4px;
+  }
+  header .menubotn div:nth-of-type(2) {
+    height: 4px;
   }
   header .menubotn div:nth-of-type(3) {
     transform: translate(-50%, 15px);
+    height: 4px;
   }
   header .flx {
     display: block;
@@ -78,6 +90,7 @@
     position: static;
     width: 100%;
     text-align: center;
+    padding-top: 48px;
   }
   header .flx .menue li {
     width: 100%;
@@ -100,7 +113,7 @@
   }
 
   .mnzi {
-    background-image: url("../img/AdobeStock_199226712のコピー2.jpg");
+    background-image: url("../img/About.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: right 10% bottom 10%;
@@ -226,6 +239,7 @@
     position: relative;
     overflow: hidden;
     width: 387px;
+    margin: 0 auto;
   }
   .news figcaption {
     margin-left: 50px;

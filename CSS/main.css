@@ -1,14 +1,12 @@
 .flx {
   display: flex;
 }
-
 .flx .menue {
   display: flex;
   justify-content: flex-end;
   position: absolute;
   right: 145px;
 }
-
 .flx .menue .list2 a,
 .flx .menue .list3 a {
   text-align: left;
@@ -18,7 +16,6 @@
   opacity: 0.5;
   text-decoration: none;
 }
-
 .flx .menue .list1 a {
   text-decoration: none;
   padding-bottom: 5px;
@@ -27,12 +24,10 @@
   visibility: visible;
   color: #272727;
 }
-
 .flx .menue li {
   padding-left: 64px;
   padding-top: 23px;
 }
-
 .flx .logo {
   text-align: center;
   font: SemiBold 16px/16px Gill Sans;
@@ -50,11 +45,9 @@
   background-position: right 10% bottom 10%;
   height: 700px;
 }
-
 .mnzi .life {
   padding-top: 193px;
 }
-
 .mnzi p {
   top: 324px;
   padding-left: 68px;
@@ -77,11 +70,9 @@
   justify-content: center;
   margin-top: 150px;
 }
-
 .hospitality .proposal {
   margin-left: 55px;
 }
-
 .hospitality .proposal h2 {
   text-align: left;
   font: Light 25px/53px Noto Serif CJK JP;
@@ -92,7 +83,6 @@
   padding-top: 250px;
   margin-bottom: 30px;
 }
-
 .hospitality .proposal p {
   text-align: left;
   font: Regular 12px/30px Noto Sans;
@@ -105,24 +95,19 @@
 .style {
   margin-top: 150px;
 }
-
 .style .slider {
   width: 964px;
   height: 503px;
 }
-
 .style .slide {
   text-align: center;
 }
-
 .style .slide div {
   height: 503spx;
 }
-
 .style .slide img {
   width: 964px;
 }
-
 .style .many {
   text-align: center;
   font: Light 25px/53px Noto Serif CJK JP;
@@ -132,7 +117,6 @@
   font-size: 25px;
   margin-bottom: 30px;
 }
-
 .style .slide {
   text-align: center;
 }
@@ -147,27 +131,22 @@
   text-align: center;
   margin-top: 150px;
 }
-
 .news .heading {
   margin-bottom: 50px;
 }
-
 .news .flxi {
   display: flex;
   justify-content: center;
 }
-
 .news .flxi img {
   width: 334px;
   height: 387px;
 }
-
 .news figure {
   position: relative;
   overflow: hidden;
   width: 387px;
 }
-
 .news figcaption {
   margin-left: 27px;
   font-size: 16px;
@@ -182,19 +161,15 @@
   -webkit-transition: .3s;
   transition: .3s;
 }
-
 .news figcaption p {
   padding-top: 150px;
 }
-
 .news figure:hover figcaption {
   bottom: 0;
 }
-
 .news .more {
   margin-top: 35px;
 }
-
 .news .more a {
   text-align: left;
   font: Thin 21px/53px Noto Sans;
@@ -214,11 +189,9 @@
   text-align: center;
   margin-top: 200px;
 }
-
 .contact .caption {
   margin-bottom: 40px;
 }
-
 .contact input {
   background: #FFFFFF 0% 0% no-repeat padding-box;
   border: 0.5px solid #707070;
@@ -228,7 +201,6 @@
   height: 35px;
   margin-top: 25px;
 }
-
 .contact .sub input {
   width: 111px;
   height: 35px;
@@ -241,7 +213,6 @@
   opacity: 1;
   margin-bottom: 150px;
 }
-
 .contact textarea {
   background: #FFFFFF 0% 0% no-repeat padding-box;
   border: 0.5px solid #707070;
@@ -259,11 +230,9 @@ footer {
   height: 284px;
   margin-top: 150px;
 }
-
 footer .wrap {
   display: flex;
 }
-
 footer .logo2 {
   text-align: center;
   font: SemiBold 22px/21px Gill Sans;
@@ -273,7 +242,6 @@ footer .logo2 {
   padding-top: 105px;
   padding-left: 200px;
 }
-
 footer .fotmenue .menue2 {
   display: flex;
   text-align: left;
@@ -284,7 +252,6 @@ footer .fotmenue .menue2 {
   padding-top: 120px;
   padding-left: 430px;
 }
-
 footer .fotmenue p {
   text-align: center;
   font: Regular 10px/16px Noto Sans;
@@ -295,7 +262,6 @@ footer .fotmenue p {
   font-size: 11px;
   padding-right: 34px;
 }
-
 footer .fotmenue a {
   text-align: left;
   font: Thin 18px/24px Noto Sans;
