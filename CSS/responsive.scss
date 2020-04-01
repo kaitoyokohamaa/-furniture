@@ -1,4 +1,3 @@
-
 @media screen and (max-width:480px) {
 
     /*　画面サイズが480pxからはここを読み込む　*/
@@ -118,7 +117,7 @@
 
     // We propose a life.のところ
     .mnzi {
-        background-image: url("../img/AdobeStock_199226712のコピー2.jpg");
+        background-image: url("../img/About.jpg");
         background-repeat: no-repeat;
         background-size: 100% auto;
         background-position: right 10% bottom 10%;
@@ -165,7 +164,7 @@
             display: none;
         }
 
-        p {}
+
     }
 
     //暮らしの提案
@@ -411,12 +410,13 @@ footer {
             text-decoration: none;
         }
     }
+
     .wraped {
         overflow: hidden;
     }
+
     body {
-        min-width: 375px
-        ;
+        min-width: 375px;
     }
 }
 
