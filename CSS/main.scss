@@ -50,7 +50,7 @@
 
 // We propose a life.のところ
 .mnzi {
-    background-image: url("../img/AdobeStock_199226712@2x.png");
+    background-image: url("../img/Mynews.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: right 10% bottom 10%;
@@ -112,19 +112,24 @@
 //豊富なスタイル
 .style {
     margin-top: 150px;
+
     .slider {
         width: 964px;
         height: 503px;
     }
+
     .slide {
         text-align: center;
+
         div {
             height: 503spx;
         }
+
         img {
             width: 964px;
         }
     }
+
     .many {
         text-align: center;
         font: Light 25px/53px Noto Serif CJK JP;
